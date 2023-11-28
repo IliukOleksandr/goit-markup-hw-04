@@ -49,6 +49,9 @@ p {
   margin-top: 0;
   margin-bottom: 0;
 }
+.icon-color {
+  fill: #f4f4fd;
+}
 
 .container {
   width: 1158px;
@@ -195,10 +198,6 @@ p {
   margin-bottom: 8px;
   background-color: #f4f4fd;
 }
-.services-icon {
-}
-.services-icon-link {
-}
 
 .visually-hidden {
   position: absolute;
@@ -288,6 +287,7 @@ p {
   align-items: center;
   border-radius: 50%;
   background-color: #4d5ae5;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .worker-social-link:hover,
 .worker-social-link:focus {
