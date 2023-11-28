@@ -380,12 +380,13 @@ p {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.footer-social-tex {
+.footer-social-text {
   color: #fff;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-bottom: 16px;
 }
 .social-list-item {
   width: 40px;
@@ -403,11 +404,16 @@ p {
 
 .footer-container {
   display: flex;
+  align-items: baseline;
 }
+
+.footer-container-one {
+  margin-right: 120px;
+}
+
 .social-list {
   display: flex;
   gap: 16px;
-  margin-top: 16px;
 }
 .footer-social-box {
   margin-left: 120px;
