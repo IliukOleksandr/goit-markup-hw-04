@@ -25,7 +25,7 @@
           >
           <ul class="menu">
             <li class="menu-item">
-              <a class="menu-link" href="./index.html">Studio</a>
+              <a class="menu-link current" href="./index.html">Studio</a>
             </li>
             <li class="menu-item">
               <a class="menu-link" href="">Portfolio</a>
@@ -67,6 +67,17 @@
           <h2 class="title-two visually-hidden">About company</h2>
           <ul class="list">
             <li class="list-item">
+              <div class="box-services-icon">
+                <svg class="services-icon">
+                  <use
+                    class="services-icon-link"
+                    width="64"
+                    height="64"
+                    aria-label="icon antenna"
+                    href="../images/icon/symbol-defs.svg#icon-antenna-1"
+                  ></use>
+                </svg>
+              </div>
               <h3 class="services">Strategy</h3>
               <p class="services-text">
                 Our goal is to identify the business problem to walk away with
@@ -113,6 +124,60 @@
               <div class="worker-box">
                 <h3 class="worker">Mark Guerrero</h3>
                 <p class="worker-profession">Product Designer</p>
+                <ul class="worker-social-list">
+                  <li class="worker-social-list-item">
+                    <a href="" target="_blank" class="worker-social-link">
+                      <svg class="worker-social-icon">
+                        <use
+                          class="worker-social-icon-link"
+                          width="16px"
+                          height="16px"
+                          aria-label="icon instagram"
+                          href="../images/icon/symbol-defs.svg#icon-instagram-2"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="worker-social-list-item">
+                    <a href="" target="_blank" class="worker-social-link">
+                      <svg class="worker-social-icon">
+                        <use
+                          class="worker-social-icon-link"
+                          width="16px"
+                          height="16px"
+                          aria-label="icon twitter"
+                          href="../images/icon/symbol-defs.svg#icon-twitter-1"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="worker-social-list-item">
+                    <a href="" target="_blank" class="worker-social-link">
+                      <svg class="worker-social-icon">
+                        <use
+                          class="worker-social-icon-link"
+                          width="16px"
+                          height="16px"
+                          aria-label="icon facebook"
+                          href="../images/icon/symbol-defs.svg#icon-facebook-1"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="worker-social-list-item">
+                    <a href="" target="_blank" class="worker-social-link">
+                      <svg class="worker-social-icon">
+                        <use
+                          class="worker-social-icon-link"
+                          width="16px"
+                          height="16px"
+                          aria-label="icon linkedin"
+                          href="../images/icon/symbol-defs.svg#icon-linkedin-1"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </li>
             <li class="team-list-item">
@@ -160,26 +225,44 @@
           <h2 class="title-four">Our Portfolio</h2>
           <ul class="list-portfolio">
             <li class="list-portfolio-item">
-              <img
-                class="images-portfolio"
-                src="./images/img4.jpg"
-                alt="Banking App"
-                width="360"
-                height="300"
-              />
+              <div class="overlay-item">
+                <img
+                  class="images-portfolio"
+                  src="./images/img4.jpg"
+                  alt="Banking App"
+                  width="360"
+                  height="300"
+                />
+                <div class="overlay">
+                  <p class="overlay-text">
+                    14 Stylish and User-Friendly App Design Concepts · Task
+                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
+                    App · Cloud Storage App
+                  </p>
+                </div>
+              </div>
               <div class="project-box">
                 <h3 class="project">Banking App</h3>
                 <p class="project-name">App</p>
               </div>
             </li>
             <li class="list-portfolio-item">
-              <img
-                class="images-portfolio"
-                src="./images/img9.jpg"
-                alt="Cashless Payment"
-                width="360"
-                height="300"
-              />
+              <div class="overlay-item">
+                <img
+                  class="images-portfolio"
+                  src="./images/img9.jpg"
+                  alt="Cashless Payment"
+                  width="360"
+                  height="300"
+                />
+                <div class="overlay">
+                  <p class="overlay-text">
+                    14 Stylish and User-Friendly App Design Concepts · Task
+                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
+                    App · Cloud Storage App
+                  </p>
+                </div>
+              </div>
               <div class="project-box">
                 <h3 class="project">Cashless Payment</h3>
                 <p class="project-name">Marketing</p>
@@ -243,14 +326,77 @@
     </main>
     <!-- Footer -->
     <footer class="lower-nav">
-      <div class="container">
-        <a class="logo lower-logo" href="./index.html"
-          >Web<span class="lower-logo-item">Studio</span></a
-        >
-        <p class="lower-nav-text">
-          Increase the flow of customers and sales for your business with
-          digital marketing &#38; growth solutions.
-        </p>
+      <div class="container footer-container">
+        <div class="footer-container-one">
+          <a class="logo lower-logo" href="./index.html"
+            >Web<span class="lower-logo-item">Studio</span></a
+          >
+          <p class="lower-nav-text">
+            Increase the flow of customers and sales for your business with
+            digital marketing &#38; growth solutions.
+          </p>
+        </div>
+        <div class="footer-social-box">
+          <p class="footer-social-tex">Social media</p>
+          <ul class="social-list">
+            <li class="social-list-item">
+              <a href="#" target="_blank" class="link-icon">
+                <svg
+                  class="social-list-icon"
+                  aria-label="icon instagram"
+                  height="24px"
+                  width="24px"
+                >
+                  <use
+                    href="../images/icon/symbol-defs.svg#icon-instagram-2"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list-item">
+              <a href="#" target="_blank" class="link-icon">
+                <svg
+                  class="social-list-icon"
+                  height="24px"
+                  width="24px"
+                  aria-label="icon twitter"
+                >
+                  <use
+                    href="../images/icon/symbol-defs.svg#icon-twitter-1"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list-item">
+              <a href="#" target="_blank" class="link-icon">
+                <svg
+                  class="social-list-icon"
+                  height="24px"
+                  width="24px"
+                  aria-label="icon facebook"
+                >
+                  <use
+                    href="../images/icon/symbol-defs.svg#icon-facebook-1"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list-item">
+              <a href="#" target="_blank" class="link-icon">
+                <svg
+                  class="social-list-icon"
+                  height="24px"
+                  width="24px"
+                  aria-label="icon linkedin"
+                >
+                  <use
+                    href="../images/icon/symbol-defs.svg#icon-linkedin-1"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>
