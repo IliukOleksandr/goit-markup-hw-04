@@ -150,6 +150,8 @@ p {
 }
 
 .section-one {
+  margin-left: auto;
+  margin-right: auto;
   max-width: 1440px;
   background-color: #2e2f42;
   padding-bottom: 188px;
@@ -370,6 +372,8 @@ p {
 }
 .list-portfolio-item:hover .overlay {
   transform: translateY(0%);
+}
+.list-portfolio-item:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
