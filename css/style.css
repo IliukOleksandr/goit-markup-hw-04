@@ -3,10 +3,12 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
+
 .button-order-service:hover,
 .button-order-service:focus {
   background-color: #404bbf;
 }
+
 .button-order-service {
   display: block;
   margin-left: auto;
@@ -26,6 +28,7 @@ body {
   transition: 250ms linear;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 ul,
 ol {
   list-style-type: none;
@@ -33,12 +36,15 @@ ol {
   margin-top: 0;
   margin-bottom: 0;
 }
+
 img {
   display: block;
 }
+
 a {
   text-decoration: none;
 }
+
 h1,
 h2,
 h3,
@@ -49,6 +55,7 @@ p {
   margin-top: 0;
   margin-bottom: 0;
 }
+
 .icon-color {
   fill: #f4f4fd;
 }
@@ -60,27 +67,33 @@ p {
   padding-left: 15px;
   padding-right: 15px;
 }
+
 .header-container {
   display: flex;
   justify-content: space-between;
 }
+
 .main-nav {
   display: flex;
   align-items: center;
 }
+
 .menu {
   display: flex;
   gap: 40px;
 }
+
 .list-contacts {
   display: flex;
   gap: 40px;
 }
+
 .top-header {
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
+
 .logo-item {
   color: #2e2f42;
   font-family: "Raleway", sans-serif;
@@ -90,6 +103,7 @@ p {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+
 .logo {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
@@ -100,6 +114,7 @@ p {
   text-transform: uppercase;
   margin-right: 76px;
 }
+
 .menu-link {
   display: block;
   color: #2e2f42;
@@ -111,10 +126,12 @@ p {
   padding-bottom: 24px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .current {
   position: relative;
   color: #404bbf;
 }
+
 .menu-link.current::after {
   content: "";
   position: absolute;
@@ -125,9 +142,11 @@ p {
   border-radius: 2px;
   background-color: #404bbf;
 }
+
 .contacts {
   font-style: normal;
 }
+
 .link-contacts {
   display: block;
   color: #434455;
@@ -140,10 +159,12 @@ p {
   padding-bottom: 24px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .menu-link:hover,
 .menu-link:focus {
   color: #404bbf;
 }
+
 .link-contacts:hover,
 .link-contacts:focus {
   color: #404bbf;
@@ -165,6 +186,7 @@ p {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .title-one {
   margin-left: auto;
   margin-right: auto;
@@ -177,18 +199,22 @@ p {
   line-height: 1.07;
   letter-spacing: 0.02em;
 }
+
 .section-two {
   background-color: #fff;
   padding-top: 120px;
   padding-bottom: 120px;
 }
+
 .list {
   display: flex;
   gap: 24px;
 }
+
 .list-item {
   width: calc((100% - 72px) / 4);
 }
+
 .box-services-icon {
   display: flex;
   align-items: center;
@@ -212,6 +238,7 @@ p {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
 .services {
   margin-bottom: 8px;
   color: #2e2f42;
@@ -220,6 +247,7 @@ p {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
+
 .services-text {
   color: #434455;
   font-size: 16px;
@@ -227,15 +255,18 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
 .section-three {
   background-color: #f4f4fd;
   padding-top: 120px;
   padding-bottom: 120px;
 }
+
 .team-list {
   display: flex;
   gap: 24px;
 }
+
 .title-three {
   margin-left: auto;
   margin-right: auto;
@@ -248,16 +279,19 @@ p {
   line-height: 1.11;
   letter-spacing: 0.02em;
 }
+
 .team-list-item {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
 }
+
 .worker-box {
   padding: 32px 0;
   text-align: center;
 }
+
 .worker {
   padding-top: 32px;
   margin-bottom: 8px;
@@ -267,6 +301,7 @@ p {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
+
 .worker-profession {
   padding-bottom: 32px;
   color: #434455;
@@ -275,11 +310,13 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
 .worker-social-list-item {
   width: 40px;
   height: 40px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .worker-social-link {
   display: flex;
   width: 100%;
@@ -290,10 +327,12 @@ p {
   background-color: #4d5ae5;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .worker-social-link:hover,
 .worker-social-link:focus {
   background-color: #404bbf;
 }
+
 .worker-social-list {
   justify-content: center;
   display: flex;
@@ -305,6 +344,7 @@ p {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+
 .list-portfolio {
   display: flex;
   flex-wrap: wrap;
@@ -322,11 +362,13 @@ p {
   line-height: 1.11;
   letter-spacing: 0.02em;
 }
+
 .project-box {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
 }
+
 .project {
   padding-top: 32px;
   margin-bottom: 8px;
@@ -336,6 +378,7 @@ p {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
+
 .project-name {
   padding-bottom: 32px;
   color: #434455;
@@ -344,13 +387,16 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
 .list-portfolio-item {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .overlay-item {
   position: relative;
   overflow: hidden;
 }
+
 .overlay {
   position: absolute;
   top: 0;
@@ -370,25 +416,31 @@ p {
   letter-spacing: 0.02em;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .list-portfolio-item:hover .overlay {
   transform: translateY(0%);
 }
+
 .list-portfolio-item:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
+
 .lower-nav {
   padding-top: 100px;
   padding-bottom: 100px;
   background-color: #2e2f42;
 }
+
 .logo {
   display: block;
 }
+
 .lower-logo {
   display: inline-block;
   margin-bottom: 16px;
 }
+
 .lower-nav-text {
   width: 264px;
   color: #f4f4fd;
@@ -397,6 +449,7 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
 .lower-logo-item {
   color: #f4f4fd;
   font-family: "Raleway", sans-serif;
@@ -406,6 +459,7 @@ p {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+
 .footer-social-text {
   color: #fff;
   font-size: 16px;
@@ -414,10 +468,12 @@ p {
   letter-spacing: 0.02em;
   margin-bottom: 16px;
 }
+
 .social-list-item {
   width: 40px;
   height: 40px;
 }
+
 .link-icon {
   display: flex;
   width: 100%;
@@ -442,9 +498,11 @@ p {
   display: flex;
   gap: 16px;
 }
+
 .footer-social-box {
   margin-left: 120px;
 }
+
 .link-icon:hover,
 .link-icon:focus {
   background-color: #31d0aa;
